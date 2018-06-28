@@ -20,14 +20,19 @@ div {
     font-family: SharpSans;
   /* background-color: #f1592a; */
 }
-.header {
-    font-family: SharpSans;
-    background-color: #EFEB40;    
-}
+
 img{
   max-width: 100%;
 }
 
 body{
   margin:0;
+}
+
+.noMargin{
+  margin: 0;
+}
+
+.horizontalCenterAlign{
+  margin:0 auto;
 }
