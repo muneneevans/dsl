@@ -1,16 +1,20 @@
 import React, { Component } from "react"
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 
-// import styles from "../../app.css"
-//import screens here
 import Counter from "../../Components/Counter"
-
+import Home from "../Home"
 
 export default class App extends Component {
-	
 	render() {
 		return (
-			//add screen inside the div
-			<Counter/>
+			<div>
+				<Router>
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route path="/counter" component={Counter} />
+					</Switch>
+				</Router>				
+			</div>
 		)
 	}
 }
