@@ -1,4 +1,4 @@
-# React Boilerplate
+# DSL Website
 
 [![Build Status](https://travis-ci.org/muneneevans/react-js-bolierplate.png?branch=master)](https://travis-ci.org/muneneevans/react-js-bolierplate)
 
@@ -148,12 +148,7 @@ The configureStore.js is already configured to accept the root reducer as the de
 * [Webpack](https://webpack.js.org/) - Dependency Management
 * [Babel](https://babeljs.io/) - compiling scripts
 
-## Authors
 
-* **Evans Munene** - [Vorane](https://github.com/muneneevans)
-* **Brian Savatia** - [Vorane](https://github.com/savatia)
-
-See also the list of [contributors](https://github.com/muneneevans/react-js-bolierplate/graphs/contributors) who participated in this project.
 
 ## License
 
