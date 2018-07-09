@@ -4,8 +4,8 @@ import "./style.css"
 const About = () => (
 	<div className="aboutContainer">
 		<div className="container segment backgroundGrey">
-		<br />
-		<br />
+			<br />
+			<br />
 			<h1 className="welcomeBannerPrimaryText">About DSL</h1>
 			<p className="aboutText">
 				The Ministry of Health (MOH) has made considerable investments in health
@@ -54,7 +54,37 @@ const About = () => (
 		<br />
 		<div className="container segment backgroundGrey">
 			<br />
-			<h1 className="welcomeBannerPrimaryText">Data Sets</h1>			
+			<h1 className="welcomeBannerPrimaryText">Data Sets</h1>
+			<p className="aboutText">
+				<h4 className="aboutText">DHIS2</h4>The District Health Information
+				Software 2 is an open source software platform allowing governments and
+				organizations to collect, manage and analyze data in health domain and
+				beyond it. It is currently deployed by the Ministry to manage routine
+				reporting data, for monitored indicators from facilities in KENYA
+			</p>
+			<p className="aboutText">
+				<h4 className="aboutText">KEMSA ERP</h4>The Kenya Medical Supplies
+				Agency is a specialized government medical logistics provider for
+				Ministries of Medical Service/ Public Health-supported health facilities
+				and programs in Kenya. This system provides logistical data on product
+				distribution to health facilities in Kenya.
+			</p>
+			<p className="aboutText">
+				<h4 className="aboutText">KMHFL</h4>The Kenya Master Health Facility
+				List (KMFL) is an application with all health facilities and Community
+				units in KENYA. Each facility and community unit is identified with a
+				unique code and their details describing their geographical locaiton,
+				administrative location, ownership, type and services offered.
+			</p>
+			<p className="aboutText">
+				<h4 className="aboutText">IHRIS</h4>IHRIS is a human resource management
+				tool that enables organizations to design and manage a comprehensive
+				human resource strategy. While primarily intended to manage health care
+				workers, IHRIS may be readily adopted to other types of personnel. IHRIS
+				is free and open source, supported by the HRH Kenya Mechanism, an
+				innovative global innitiative to help developing countries build and
+				sustain their health workforce.
+			</p>
 		</div>
 	</div>
 )
