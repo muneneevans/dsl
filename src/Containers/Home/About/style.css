@@ -1,0 +1,14 @@
+.aboutContainer {
+}
+.backgroundGrey {
+  padding: 30px 10vw;
+  background-color: #f2f2f2;
+}
+.backgroundWhite {
+  padding: 30px 10vw;
+  background-color: #ffffff;
+}
+
+.aboutText {
+  font-size: 1.5rem;
+}

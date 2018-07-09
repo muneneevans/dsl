@@ -1,0 +1,14 @@
+.welcomeBannerContainer{
+    padding: 50px 0px;
+    text-align: center;
+    background: blue;
+}
+.welcomeBanner{
+    color: white
+}
+.welcomeBannerPrimaryText{
+    font-size: 3.5rem;
+}
+
+
+    

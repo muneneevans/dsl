@@ -8,7 +8,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<div>
-				<div className="ui menu fixed stackable">
+				<div className="ui menu stackable">
 					<a href="#" className="header item">
 						<img
 							className="logo"
@@ -21,14 +21,14 @@ export default class App extends Component {
 					<div className="right menu">
 						<div className="header item">About</div>
 						<a className="item">Services</a>
-						<a className="item">Data Sets</a>						
+						<a className="item">Data Sets</a>
 					</div>
 				</div>
 
 				<Router>
 					<Switch>
+						<Route path="/counter" component={Home} />
 						<Route exact path="/" component={Home} />
-						<Route path="/counter" component={Counter} />
 					</Switch>
 				</Router>
 			</div>
